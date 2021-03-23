@@ -21,7 +21,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(p404.png),#151729;
+    background: url(p404.png),rgba(0,0,0,1);
     box-shadow: 0 15px 30px rgba(0,0,0,0.5);
 }
 
@@ -31,6 +31,7 @@ body {
 }
 
 #content .container h2 {
+    position: relative;
     font-size: 18vw;
     color: #fff;
     line-height: 1em;
@@ -45,6 +46,7 @@ body {
     font-weight: 300;
     padding: 10px 20px;
     display: inline-block;
+    border-radius: 5px;
 }
 
 #content .container p {
